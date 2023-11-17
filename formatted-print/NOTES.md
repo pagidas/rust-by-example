@@ -15,7 +15,7 @@ It is handled by a series of `macros` defined in `std::fmt` some of which includ
 - `fmt::Display`: Uses the `{}` marker. Format text in a more user-friendly fashion.
 - `fmt::Debug`: Uses the `{:?}` marker. Format text for debugging puposes.
 
-> [!NOTE] <br>
-The standard library provides implementations for types in the standard library. For custom types, we have to implement the `fmt::Display` that demands us to implement the `ToString` trait as well, so that we can convert the type to `String`.
+> [!NOTE]
+> The standard library provides implementations for types in the standard library. For custom types, we have to implement the `fmt::Display` that demands us to implement the `ToString` trait as well, so that we can convert the type to `String`.
 
 ### Questions
