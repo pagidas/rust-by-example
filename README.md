@@ -14,3 +14,4 @@ We've tried to keep the original structure of the ***rust-by-example*** guide --
     - [hello-world program](./hello-world/)
     - [Formatted print](./formatted-print/)
         - [Formatted Debug](./formatted-debug/)
+        - [Formatted Display](./formatted-display/)
