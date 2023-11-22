@@ -48,6 +48,7 @@ impl fmt::Display for List {
         write!(f, "]")
     }
 }
+// printing the `List(Vec<i32>)` is used in main towards the end.
 // Testcase_end: List
 
 fn main() {

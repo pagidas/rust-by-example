@@ -15,3 +15,4 @@ We've tried to keep the original structure of the ***rust-by-example*** guide --
     - [Formatted print](./formatted-print/)
         - [Formatted Debug](./formatted-debug/)
         - [Formatted Display](./formatted-display/)
+            - [Testcase: List](./formatted-display/src/main.rs#L32)
