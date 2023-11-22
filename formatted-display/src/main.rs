@@ -26,6 +26,30 @@ impl fmt::Display for Point2D {
     }
 }
 
+// Testcase_start: List
+struct List(Vec<i32>);
+
+// Prints the list indexed separated by colon.
+impl fmt::Display for List {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        // extract the value of the type, using tuple indexing,
+        // and create a reference to `vec`.
+        let vec: &Vec<i32> = &self.0;
+
+        write!(f, "[")?;
+
+        // iterate over `vec` while enumrating the iteration count in `index`.
+        for (index, v) in vec.iter().enumerate() {
+            if index != 0 { write!(f, ", ")?; }
+            write!(f, "{index}: {value}", index = index, value = v)?;
+        }
+
+        // close the opened bracket and return fmt::Result value.
+        write!(f, "]")
+    }
+}
+// Testcase_end: List
+
 fn main() {
     let minmax: MinMax = MinMax(0, 14);
     println!("Compare structures:");
@@ -44,4 +68,8 @@ fn main() {
     println!("Compare points:");
     println!("Display: {}", point);
     println!("Debug: {:?}", point);
+
+    println!("Testcase: List, Display");
+    let list = List(vec![1, 2, 3]);
+    println!("{}", list);
 }
