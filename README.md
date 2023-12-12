@@ -10,13 +10,14 @@ The repository is broken down into multiple modules, built in `cargo` -- Rust's 
 We've tried to keep the original structure of the ***rust-by-example*** guide -- linked mentioned above.
 
 ## Modules
-- hello-world
-    - [hello-world program](./hello-world/)
-    - [Formatted print](./formatted-print/)
-        - [Formatted Debug](./formatted-debug/)
-        - [Formatted Display](./formatted-display/)
-            - [Testcase: List](./formatted-display/src/main.rs#L32-L52)
-    - [Primitives](./primitives/)
-        - [Literals and Operators](./literals-and-operators/)
-        - [Tuples](./tuples)
-        - [Arrays and Slices](./arrays-and-slices/)
+1. [Hello World](./1-hello-world/)
+    - [hello-world program](./1-hello-world/hello-world/)
+    - [Formatted print](./1-hello-world/formatted-print/)
+    - [Formatted Debug](./1-hello-world/formatted-debug/)
+    - [Formatted Display](./1-hello-world/formatted-display/)
+        - [Testcase: List](./1-hello-world/formatted-display/src/main.rs#L32-L52)
+2. [Primitives](./2-primitives)
+    - [primitives](./2-primitives/primitives)
+    - [Literals and Operators](./2-primitives/literals-and-operators/)
+    - [Tuples](./2-primitives/tuples)
+    - [Arrays and Slices](./2-primitives/arrays-and-slices/)
