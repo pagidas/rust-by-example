@@ -18,3 +18,5 @@ We've tried to keep the original structure of the ***rust-by-example*** guide --
             - [Testcase: List](./formatted-display/src/main.rs#L32-L52)
     - [Primitives](./primitives/)
         - [Literals and Operators](./literals-and-operators/)
+        - [Tuples](./tuples)
+        - [Arrays and Slices](./arrays-and-slices/)
