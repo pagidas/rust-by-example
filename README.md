@@ -21,3 +21,6 @@ We've tried to keep the original structure of the ***rust-by-example*** guide --
     - [Literals and Operators](./2-primitives/literals-and-operators/)
     - [Tuples](./2-primitives/tuples)
     - [Arrays and Slices](./2-primitives/arrays-and-slices/)
+3. [Custom Types](./3-custom-types/)
+    - [Structures](./3-custom-types/structures/)
+        - [Testcase: Rectangle area](./3-custom-types/structures/src/main.rs#L72-L79)
