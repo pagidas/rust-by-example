@@ -26,3 +26,4 @@ We've tried to keep the original structure of the ***rust-by-example*** guide --
         - [Testcase: Rectangle area](./3-custom-types/structures/src/main.rs#L72-L79)
     - [Enums](./3-custom-types/enums/)
         - [Definition](./3-custom-types/enums/definition/)
+        - [Use](./3-custom-types/enums/use-scoping/)
