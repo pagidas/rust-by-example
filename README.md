@@ -39,4 +39,5 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
     - [Use](./3-custom-types/enums/use-scoping/)
     - [C-like](./3-custom-types/enums/c-like/)
     - [Testcase: linked-list](./3-custom-types/enums/testcase-linked-list/)
+- [Constants](./3-custom-types/constants/)
 </details>
