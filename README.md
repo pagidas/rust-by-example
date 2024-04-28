@@ -41,3 +41,12 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
     - [Testcase: linked-list](./3-custom-types/enums/testcase-linked-list/)
 - [Constants](./3-custom-types/constants/)
 </details>
+
+<details>
+<summary>4. Variable Bindings</summary>
+
+- [Binding](./4-variable-bindings/binding/)
+- [Scope and Shadowing](./4-variable-bindings/scope-and-shadowing/)
+- [Declare first](./4-variable-bindings/declare-first/)
+- [Freezing](./4-variable-bindings/freezing/)
+</details>
