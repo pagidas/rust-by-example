@@ -50,3 +50,12 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
 - [Declare first](./4-variable-bindings/declare-first/)
 - [Freezing](./4-variable-bindings/freezing/)
 </details>
+
+<details>
+<summary>5. Types</summary>
+
+- [Casting](./5-types/casting)
+- [Literals](./5-types/literals)
+- [Inference](./5-types/inference)
+- [Aliasing](./5-types/aliasing)
+</details>
