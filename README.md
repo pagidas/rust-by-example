@@ -59,3 +59,10 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
 - [Inference](./5-types/inference)
 - [Aliasing](./5-types/aliasing)
 </details>
+
+<details>
+<summary>6. Conversion</summary>
+
+- [From and Into](./6-conversion/from-and-into)
+
+</details>
