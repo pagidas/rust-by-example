@@ -64,5 +64,6 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
 <summary>6. Conversion</summary>
 
 - [From and Into](./6-conversion/from-and-into)
+- [TryFrom and TryInto](./6-conversion/tryfrom-and-tryinto)
 
 </details>
