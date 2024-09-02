@@ -68,3 +68,10 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
 - [To and from Strings](./6-conversion/to-and-from-strings)
 
 </details>
+
+<details>
+<summary> 7. Expressions</summary>
+
+- [expressions](./7-expressions)
+
+</details>
