@@ -72,6 +72,6 @@ We've tried to keep the original structure of the ***rust-by-example*** guide li
 <details>
 <summary> 7. Expressions</summary>
 
-- [expressions](./7-expressions)
+- [expressions](./7-expressions/expressions)
 
 </details>
